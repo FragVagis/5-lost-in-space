@@ -6,11 +6,11 @@
 
 # Lost In Space
 
-_37 group website project_
+_FragVagis website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/37-grupe-astronautas/
+Site published at: https://github.com/FragVagis/5-lost-in-space
 
 Design: [Astronaut](https://cdn.dribbble.com/users/1355613/screenshots/5964475/space.gif)
 
