@@ -37,24 +37,22 @@ nav a {
     text-decoration:none;
 }
 
-
-
-
 main {
     width: 1000px;
     padding-top: 20px;
     padding-bottom: 20px;
-    
-   
 }
+
 main > div {
     width: 45%;
     float: left;
 }
+
 main > img {
     width: 55%;
     float: right;
 }
+
 .line {
     display:inline-block;
     width: 35%;
@@ -65,24 +63,28 @@ main > img {
     border-radius: 50px;
     float: left;
 }
+
 h1 {
     margin: 0%;
 }
+
 h2 {
     margin: 0%;
-    
 }
+
 .number {
     display:inline-block;
     font-size: 40px;
     font-weight: 500;
     word-spacing: 0%;
 }
+
 .heading {
     display:inline-block;
     font-size: 45px;
     font-weight: 700;
 }
+
 p {
     display:inline-block;
     font-size: 14px;
@@ -103,6 +105,7 @@ p {
     color: white;
     text-transform: uppercase ;
 }
+
 .homebutton:hover {
     background-color: white;
     color: #694a8c;
@@ -120,11 +123,26 @@ p {
     color: #694a8c;
     text-transform: uppercase ;
 }
+
 .backbutton:hover {
     background-color: #694a8c;
     color: white;
 }
 
 footer {
-  
+    justify-content: space-evenly;
+}
+
+footer a {
+    color: rgb(203, 203, 203);
+    margin-right: 20px;
+    text-decoration: none;
+    display:inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    display:inline-block;
+    float:right;
 }
