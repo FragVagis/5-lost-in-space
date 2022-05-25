@@ -1,5 +1,16 @@
+header,
+main,
+footer {
+    display: inline-block;
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+    margin-right: calc(50% - 500px);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
 header{
-width: 100%;
 padding-top: 20px;
 padding-bottom: 20px;
 justify-content: space-evenly;
@@ -11,17 +22,15 @@ header img {
     width: 10%;
     max-width: 120px;
     height: auto;
-
 }
 
 nav{
     text-align: right;
-    width: 50%;
+    width: 100%;
 }
 nav a {
     letter-spacing: 0.2px;
     color: black;
-    font-family: sans-serif;
     font-size: 16px;
     font-weight: 600;
     padding: 10px 20px 10px 20px;
@@ -32,14 +41,90 @@ nav a {
 
 
 main {
-    width: 800px;
-    margin: auto;
-    margin-bottom: 30px;
-    background-color: green;
+    width: 1000px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+   
 }
+main > div {
+    width: 45%;
+    float: left;
+}
+main > img {
+    width: 55%;
+    float: right;
+}
+.line {
+    display:inline-block;
+    width: 35%;
+    display:flex;
+    color: transparent;
+    background-color: #694a8c;
+    height: 5px;
+    border-radius: 50px;
+    float: left;
+}
+h1 {
+    margin: 0%;
+}
+h2 {
+    margin: 0%;
+    
+}
+.number {
+    display:inline-block;
+    font-size: 40px;
+    font-weight: 500;
+    word-spacing: 0%;
+}
+.heading {
+    display:inline-block;
+    font-size: 45px;
+    font-weight: 700;
+}
+p {
+    display:inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.homebutton {
+    display:inline-block;
+    border:solid;
+    border-radius: 50px;
+    border-color: #694a8c;
+    background-color: #694a8c;;
+    padding: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase ;
+}
+.homebutton:hover {
+    background-color: white;
+    color: #694a8c;
+}
+
+.backbutton {
+    display:inline-block;
+    border: solid;
+    border-radius: 50px;
+    border-color: #694a8c;
+    padding: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-decoration: none;
+    color: #694a8c;
+    text-transform: uppercase ;
+}
+.backbutton:hover {
+    background-color: #694a8c;
+    color: white;
+}
+
 footer {
-    width: 800px;
-    margin: auto;
-    margin-bottom: 30px;
-    background-color: red;
+  FOOTERIS content
 }
